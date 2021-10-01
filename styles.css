@@ -1,0 +1,25 @@
+body {
+    background-color: #C4B5FD;
+    text-align: center;
+    color: black ;
+}
+
+.container {
+    background-color: #C4B5FD;
+    border: 0.1rem solid whitesmoke;
+    margin: 1rem;
+
+}
+
+input {
+    display: block;
+    margin: 1rem auto;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    width: 5rem;
+    background-color:  #7C3AED;
+    border-radius: 0.5rem;
+}
