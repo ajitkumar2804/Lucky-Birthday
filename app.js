@@ -4,7 +4,15 @@ const luckyNo = document.querySelector("#lucky-number");
 const birthMessage = document.querySelector("#birthday-msg");
 
 
-btnCheck.addEventListener("click", checkLuck);
+btnCheck.addEventListener("click", checkall);
+
+function checkall() {
+      if (dateOfBirth.value === "" || luckyNo.value === "") {
+            showMessage("Enter All values")
+          }else{
+                checkLuck();
+          }
+}
 
 function checkLuck() {
       const birthdate = dateOfBirth.value;
@@ -29,3 +37,4 @@ function showMessage(msg){
       birthMessage.innerHTML = msg;
 
 }
+
