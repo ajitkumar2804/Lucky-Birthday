@@ -10,9 +10,9 @@ function checkLuck() {
       const birthdate = dateOfBirth.value;
       const sum = calculateSum(birthdate);
       if(sum % luckyNo.value ===0){
-            showMessage("You Are Lucky");
+            showMessage("You Are Lucky 😍 !!!!!");
       }else{
-            showMessage("You are Not Lucky");
+            showMessage("You are Not Lucky 😊....");
       }
 }
 

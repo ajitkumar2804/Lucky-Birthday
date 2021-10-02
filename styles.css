@@ -19,7 +19,13 @@ input {
 button {
     margin: 0.5rem;
     padding: 0.5rem 0.5rem;
-    width: 5rem;
-    background-color:  #7C3AED;
+    width: 6rem;
+    background-color:  #8B5CF6;
     border-radius: 0.5rem;
+    font-size: medium;
+}
+#birthday-msg {
+    padding: 1rem;;
+    font-size: 2rem;
+    color: #4C1D95;
 }
